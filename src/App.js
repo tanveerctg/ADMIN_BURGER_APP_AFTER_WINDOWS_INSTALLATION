@@ -10,6 +10,7 @@ import Orders from "./containers/Orders/Orders";
 import All_burgers from "./containers/All_burgers/All_burgers";
 import Messages from "./containers/Messages/Messages";
 import Layout from "./components/Layout/Layout";
+import ConfirmOrder from "./containers/ConfirmOrder/ConfirmOrder";
 import "./App.scss";
 import { Route, Switch, Router } from "react-router-dom";
 import createHistory from "history/createBrowserHistory";
@@ -29,6 +30,7 @@ const App = () => (
       <Route path="/settings" component={Settings} />
       <Route path="/orders" component={Orders} />
       <Route path="/messages" component={Messages} />
+      <Route path="/confirmOrder" component={ConfirmOrder} />
     </Switch>
   </Layout>
 );

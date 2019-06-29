@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.wrapper {
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.wrapper>h3,
+select {
+    background: #f2f6f5;
+    padding: 1rem;
+}
+
+.wrapper select {
+    width: 8rem;
+    border-color: #dddddd;
+}

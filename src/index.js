@@ -97,7 +97,7 @@ firebase
     let info = [];
     for (let user in snap.val()) {
       for (let order in snap.val()[user]) {
-        info.push(snap.val()[user][order]);
+        info.push({ ...snap.val()[user][order], CustomerId: user });
       }
     }
     store.dispatch({ type: "ALL__ORDERS", orders: info });
