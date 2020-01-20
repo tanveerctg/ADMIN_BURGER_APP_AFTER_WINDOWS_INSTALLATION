@@ -13,10 +13,42 @@
     margin: 2rem 0 2rem 1rem;
 }
 
-.item {
-    background: rgb(248, 210, 210);
+.orders,
+.messages,
+.items {
     height: 100%;
     width: 100%;
+    background: #f96d15;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.messages {
+    background: #216583;
+}
+
+.items {
+    background: #333333;
+}
+
+.message_digit {
+    color: red;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.digit {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .row {
@@ -25,6 +57,27 @@
 
 .latestItems {
     margin: 2rem 1rem 2rem 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.tr {
+    border-color: transparent;
+}
+
+.tr td {
+    border-color: transparent;
+    margin: 5px 0;
+
+}
+
+.table th {
+    border-color: transparent;
 }
 
 @media only screen and (max-width: 1048px) {
