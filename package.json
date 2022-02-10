@@ -82,7 +82,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "node-sass": "^4.9.4"
+    "node-sass": "^7.0.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
